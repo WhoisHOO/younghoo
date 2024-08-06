@@ -1,0 +1,51 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 20px;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* H2 Styling */
+h2 {
+    color: #0056b3;
+    margin-top: 20px;
+}
