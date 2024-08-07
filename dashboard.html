@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Smart Contract Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Smart Contracts</a></li>
+            <li><a href="#">Contact List</a></li>
+            <li><a href="#">User Profile</a></li>
+        </ul>
+        <input type="text" placeholder="Search...">
+    </nav>
+    <div class="main-content">
+        <div class="header">
+            <h1>Contract List</h1>
+            <button>Add New Contract</button>
+        </div>
+        <div class="tabs">
+            <button class="tab active">In-progress Contract List</button>
+            <button class="tab">Another Tab</button>
+        </div>
+        <table class="contract-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Agreement Type</th>
+                    <th>Progress</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Contract A</td>
+                    <td>Type 1</td>
+                    <td><div class="progress-bar"><div class="progress" style="width: 50%;"></div></div></td>
+                    <td>Active</td>
+                    <td><button>View</button> <button>Approve</button></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+    <footer class="chat-forum">
+        <h2>Chat Forum</h2>
+        <button>Add New Chat</button>
+    </footer>
+</body>
+</html>
